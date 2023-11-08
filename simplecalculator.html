@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <script>
+            var a=10;
+            var b=20;
+             function addCal(){
+        
+            document.getElementById('add').innerHTML =a+b;
+        }
+        function subCal(){
+            document.getElementById('sub').innerHTML =a-b;
+        }
+        function mulCal(){
+            document.getElementById('mul').innerHTML =a*b;
+        }
+        function divCal(){
+        
+            document.getElementById('div').innerHTML =a/b;
+        }
+        </script>
+       
+    </head>
+    <body>
+        <center>
+            <table border="4" cellspacing="30px" cellpadding="15px">
+                <h2>Calculator</h2>
+                <tr>
+                    <td><button type="button" onclick="addCal()">ADD</button></td>
+                    <td><button type="button">
+                        <p id="add"></p>
+                    </button></td>
+                </tr>
+    
+                <tr>
+                    <td><button type="button" onclick="subCal()">SUB</button></td>
+                    <td><button type="button">
+                        <p id="sub"></p>
+                    </button></td>
+                </tr>
+    
+                <tr>
+                    <td><button type="button" onclick="mulCal()">MUL</button></td>
+                    <td><button type="button">
+                        <p id="mul"></p>
+                    </button></td>
+                </tr>
+    
+                <tr>
+                    <td><button type="button" onclick="divCal()">DIV</button></td>
+                    <td><button type="button">
+                        <p id="div"></p>
+                    </button></td>
+                </tr>
+    
+            </table>
+
+        </center>
+       
+    </body>
+</html>
